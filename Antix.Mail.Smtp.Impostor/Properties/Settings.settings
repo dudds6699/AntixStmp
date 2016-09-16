@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Antix.Mail.Smtp.Impostor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FileMessageStorage_DropPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Hosts" Type="Antix.Mail.Smtp.Impostor.HostCollectionConfiguration" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Hosts /&gt;</Value>
+    </Setting>
+    <Setting Name="FileMessageStorage_FileExtension" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.eml</Value>
+    </Setting>
+    <Setting Name="HostIPAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0.0.0.0</Value>
+    </Setting>
+    <Setting Name="HostPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="SessionReadBufferSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

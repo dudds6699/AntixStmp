@@ -1,0 +1,23 @@
+﻿<Window x:Class="Antix.Mail.Smtp.Impostor.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Antix.Mail.Smtp.Impostor.Client"
+        Title="Antix SMTP Impostor" Height="350" Width="525" WindowStyle="ThreeDBorderWindow"
+        Icon="/Antix.Mail.Smtp.Impostor.Client;component/Graphics/LogoIcon.ico">
+    <Window.Resources>
+    </Window.Resources>
+    <Grid Background="Transparent">
+        <TabControl Name="HostsControl"
+                    Height="Auto" Width="Auto" 
+                    Margin="0,0,0,0" Padding="0" />
+        <StatusBar Name="StatusBar"
+                   Width="Auto" Height="23"
+                   VerticalAlignment="Bottom"
+                   Margin="1" 
+                   Visibility="Collapsed">
+            <TextBlock Name="StatusControl" 
+                    Width="Auto">loading...</TextBlock>
+        </StatusBar>
+    </Grid>
+</Window>
+   

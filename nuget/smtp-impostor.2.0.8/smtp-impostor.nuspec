@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<package> 
+  <metadata> 
+    <id>smtp-impostor</id> 
+    <version>2.0.8</version> 
+    <authors>Anthony Johnston</authors> 
+    <owners>Anthony Johnston</owners>
+    <description>A testable fake SMTP server</description> 
+    <projectUrl>http://ssfd.codeplex.com/</projectUrl>
+    <licenseUrl>http://ssfd.codeplex.com/license</licenseUrl>
+    <tags>smtp testing .net40</tags>
+    <language>en-US</language> 
+  </metadata> 
+</package>
